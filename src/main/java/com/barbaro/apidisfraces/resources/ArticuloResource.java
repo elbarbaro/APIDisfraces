@@ -11,7 +11,6 @@ import javax.ws.rs.Path;
 public class ArticuloResource {
     
     @GET
-    @Path("prueba")
     public String getPartes(){
         Articulo articulo = new Articulo();
         articulo.setId("1");
@@ -30,7 +29,7 @@ public class ArticuloResource {
     }   
 
     @POST
-    public String CrearPartes(){//regresa respuesta y es string
+    public String crearPartes(){//regresa respuesta y es string
      return "";
     }
     
